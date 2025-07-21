@@ -37,3 +37,4 @@ jobs:
           service: myapp
           region: asia-northeast1
           image: asia-northeast1-docker.pkg.dev/terraform-test-465311/github-actions-test/myapp:${{ github.sha }}
+          flags: --allow-unauthenticated
